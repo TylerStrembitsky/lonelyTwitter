@@ -3,9 +3,23 @@ package ca.ualberta.cs.lonelytwitter;
 import java.util.Date;
 
 /**
- * Created by joshua2 on 9/16/15.
+ * Represents a tweet interface.
+ *
+ * @author tylerstrembitsky
  */
 public interface Tweetable {
+
+    /**
+     * Gets text of tweet
+     *
+     * @return
+     */
     public String getText();
+
+    /**
+     * Gets date of tweet
+     *
+     * @return
+     */
     public Date getDate();
 }
